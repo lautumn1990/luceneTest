@@ -10,9 +10,9 @@
 
     <appender name="A1" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <Append>true</Append>
-        <File>D:/projects/lautumn-test/log/luceneTest.log</File>
+        <File>log/luceneTest.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>D:/projects/lautumn-test/log/luceneTest.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <FileNamePattern>log/luceneTest.%d{yyyy-MM-dd}.log</FileNamePattern>
         </rollingPolicy>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger:%line - %msg%ex%n</pattern>

@@ -31,7 +31,7 @@ import java.util.List;
  */
 public class WildcardQueryDemo {
     private static final Logger logger = LoggerFactory.getLogger(WildcardQueryDemo.class);
-    private static final String INDEX_PATH = "D:\\projects\\lautumn-test\\index";
+    private static final String INDEX_PATH = "index";
 
     /**
      * 获取IndexSearcher
